@@ -13,7 +13,7 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid #a74242 ;
 }
 
 .logo{
@@ -125,4 +125,62 @@ body{
     width: 200px;
     background-color: white;
     cursor: pointer;
+}
+
+.phrase{
+    text-align: center;
+}
+
+.tasks-container{
+    width: 50%;
+    
+}
+
+.nav-tasks{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3b6b6;
+}
+
+.tasks-title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-tasks{
+    display: flex;
+    color: white;
+    height: 100%;
+    background: none rgba(255, 255, 255, 0.2);
+    opacity: 0.9;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-tasks img{
+    height: 20px;
+}
+
+.to-do{
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed #e3b6b6;
+    border-radius: 4px;
+    background-color: #a74242;
+    height: 40px;
+}
+
+.to-do img{
+    height: 20px;
+    margin-right: 10px;
 }

@@ -17,22 +17,21 @@
                 </a>
             </div>
             <ul class="nav-list">
-                <li><button class="btn-nav">
+                <!-- <li><button class="btn-nav">
                     <img src="./img/graph-white.png" alt="imagen de graficas blancas">
                     <p>Report</p>
-                    
                     </button>
-                </li>
+                </li> -->
                 <li><button class="btn-nav">
                     <img src="./img/config-white.png" alt="imagen de un engranaje blanco ">
                     <p>Setting</p> 
                     </button>
                 </li>
-                <li><button class="btn-nav">
+                <!-- <li><button class="btn-nav">
                     <img src="./img/config-white.png" alt="imagen de un engranaje blanco ">
                     <p>Loggin</p> 
                     </button>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
@@ -45,9 +44,10 @@
                         <li><button class="btn-actions">Short Break</button></li>
                         <li><button class="btn-actions">Long Break</button></li>
                     </ul>
-                    <label class="timer" id="timerString">25</label>
+                    <label class="timer" id="timerString"></label>
                     <div class="btn-counter">
-                        <button class="btn-start">Start</button>    
+                        <button class="btn-start" id="start" >Start</button>
+                        <button class="btn-start" id="pause" >Pause</button>    
                     </div>
                     
                 </div>
@@ -59,11 +59,11 @@
             <div class="tasks-container">
                 <div class="nav-tasks">
                     <h2 class="tasks-title">Tasks</h2>
-                    <button class="btn-tasks">
+                    <button class="btn-tasks" >
                         <img src="./img/threedots-white.png" alt="imagen de tres puntos" >
                     </button>
                 </div>
-                <div class="to-do"> 
+                <div class="to-do" id="to-do-tasks"> 
                     <img src="./img/plus-circle-white.png" alt="imagen de un circulo con un simbolo de mas" >
                     <h3>Add a tasks</h3>
                 </div>

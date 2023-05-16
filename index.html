@@ -59,16 +59,30 @@
             <div class="tasks-container">
                 <div class="nav-tasks">
                     <h2 class="tasks-title">Tasks</h2>
-                    <button class="btn-tasks" >
+                    <button class="btn-tasks-title" >
                         <img src="./img/threedots-white.png" alt="imagen de tres puntos" >
                     </button>
+                </div>
+                <div class="CONTASK" id="CONTASK">
                 </div>
                 <div class="to-do" id="to-do-tasks"> 
                     <img src="./img/plus-circle-white.png" alt="imagen de un circulo con un simbolo de mas" >
                     <h3>Add a tasks</h3>
                 </div>
+                
             </div>
-
+            <div class="task-modal">
+                <form id="form">
+                    <label>Nombre de la tarea:</label>
+                    <input type="text" id="idTask">
+                    <div class="buttons-task-container">
+                        <input type="submit" class="btn-task" id="delete" value="Delete"></input>
+                        <input type="submit" class="btn-task" id="cancel" value="Cancel"></input>
+                        <input type="submit" class="btn-task" id="save" value="Save"></input>
+                    </div>
+                </form>
+            </div>
+            
         </section>
     </main>
     <footer></footer>
